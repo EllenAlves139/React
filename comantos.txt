@@ -1,0 +1,7 @@
+DELIMITER //
+create procedure 
+END //
+
+
+
+call sp_registrar_compra (1, 'Assento 7', 250.00);

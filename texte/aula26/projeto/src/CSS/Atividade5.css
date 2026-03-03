@@ -1,0 +1,29 @@
+.card5 {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  color: white; /* importante pro fundo escuro */
+}
+
+button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+#Mensagem-saudacao {
+    margin-top: 10px;
+}
