@@ -1,4 +1,4 @@
-#card {
+#card-transportadora {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -10,4 +10,5 @@
 
   color: white; /* importante pro fundo escuro */
   margin-bottom: 10px;
+  
 }

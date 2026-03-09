@@ -26,6 +26,8 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  justify-content: center;
+  
   min-width: 320px;
   min-height: 100vh;
    background: url("assets/ChatGPT\ Image\ 3\ de\ mar.\ de\ 2026\,\ 08_45_24.png") no-repeat center center fixed;

@@ -1,5 +1,5 @@
 /*Consultaendereco*/
-
+import "/src/CSS/cep.css";
 function Consultaendereco() {
 
 function BuscaCep() {
@@ -35,7 +35,7 @@ function BuscaCep() {
 }
 
 return (
-    <div className="consulta-cep-container">
+    <div className="consulta-cep-container" id="card-consulta">
         <h2>Consulta de Endereço por CEP</h2>
         <input type="text" id="input-cep" placeholder="Digite o CEP" className="input-cep"/>
         <button onClick={BuscaCep} className="btn-consulta">Consultar</button>
